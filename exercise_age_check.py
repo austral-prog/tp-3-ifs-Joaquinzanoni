@@ -20,11 +20,9 @@ def age_check():
     """
     edad= int(input())
     lim_edad= int(input())
-    if 0< edad > lim_edad:
-        return "Eres mayor de edad"
+    if 0< edad >=lim_edad:
+        print("Eres mayor de edad")
     elif 0< edad < lim_edad:
-        return "Eres menor de edad"
+        print("Eres menor de edad")
     else:
-        return "Entrada invalida"
-print(age_check())
-
+        print("Entrada invalida")

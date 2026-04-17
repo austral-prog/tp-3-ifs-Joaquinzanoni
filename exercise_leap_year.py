@@ -19,7 +19,6 @@ def leap_year():
     """
     año = int(input())
     if (año % 4 == 0) and (not año % 100==0 or año % 400==0):
-        return f"El año {año} es bisiesto"
+        print(f"El año {año} es bisiesto")
     else:
-        return f"El año {año} no es bisiesto"
-print(leap_year())
+        print(f"El año {año} no es bisiesto")

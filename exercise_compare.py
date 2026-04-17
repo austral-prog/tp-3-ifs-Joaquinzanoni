@@ -18,9 +18,9 @@ def compare():
     num_ent1=int(input())
     num_ent2=int(input())
     if num_ent1 > num_ent2:
-        return f"{num_ent1} es mayor que {num_ent2}"
+        print(f"{num_ent1} es mayor que {num_ent2}")
     elif num_ent1 < num_ent2:
-        return f"{num_ent1} es menor que {num_ent2}"
+        print(f"{num_ent1} es menor que {num_ent2}")
     else:
-        return f"{num_ent1} es igual a {num_ent2}"
-print(compare())
+        print(f"{num_ent1} es igual a {num_ent2}")
+

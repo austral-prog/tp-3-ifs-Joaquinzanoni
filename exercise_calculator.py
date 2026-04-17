@@ -26,15 +26,16 @@ def calculator():
     num2 = float(input())
     operacion = input()
     if operacion == "+":
-        return num1 + num2
+        print(f"Resultado: {num1 + num2}")
     elif operacion == "-":
-        return num1 - num2
+        print(f"Resultado: {num1 - num2}")
     elif operacion == "*":
-        return num1 * num2
+        print(f"Resultado: {num1 * num2}")
     elif operacion == "/":
         if num2 == 0:
-            return "Error: division por cero"
-        return num1 / num2
+            print("Error: division por cero")
+        else:
+            print(f"Resultado: {num1 / num2}")
     else:
-        return "Operacion invalida"
-print(calculator())
+        print("Operacion invalida")
+

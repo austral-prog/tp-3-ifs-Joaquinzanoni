@@ -19,7 +19,7 @@ def weekday():
     """
     dia= input().lower()
     if not dia=="sabado"and not dia=="domingo":
-        return "Dia habil"
+        print("Dia habil")
     else:
-        return "Fin de semana"
-print(weekday())
+        print("Fin de semana")
+

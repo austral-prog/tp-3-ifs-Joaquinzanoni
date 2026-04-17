@@ -17,4 +17,3 @@ def even_odd():
         print(f"El numero {numero_ent} es par")
     else:
         print(f"El numero {numero_ent} es impar")
-even_odd()

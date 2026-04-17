@@ -40,8 +40,7 @@ def discount():
     mont_desc = Subtotal * proporcion
     total_final = Subtotal - mont_desc
 
-    return (f"Subtotal: {Subtotal}\n"
+    print (f"Subtotal: {Subtotal}\n"
             f"Descuento aplicado: {porcentaje}%\n"
             f"Monto de descuento: {mont_desc}\n"
             f"Total final: {total_final}\n")
-print(discount())

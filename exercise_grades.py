@@ -20,11 +20,10 @@ def grades():
     """
     nota = int(input())
     if 9 <= nota <= 10:
-        return "Excelente"
+        print("Excelente")
     elif nota >= 7:
-        return "Bueno"
+        print("Bueno")
     elif nota >= 5:
-        return "Regular"
+        print("Regular")
     else :
-        return "Insuficiente"
-print(grades())
+        print("Insuficiente")

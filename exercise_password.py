@@ -41,4 +41,3 @@ def password():
         if not tiene_num:
             print("Debe contener un numero")
 
-password()
